@@ -1,0 +1,16 @@
+#eureka:
+#  instance:
+#    prefer-ip-address: true
+#  client:
+#    service-url:
+#      defaultZone: http://localhost:8081/eureka
+
+server:
+  port: 9090
+
+spring:
+  application:
+    name: spring-cloud-gateway
+   #cloud:  This will disable gateway functionality.
+    #gateway:
+     # enabled: false
