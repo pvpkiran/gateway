@@ -13,6 +13,10 @@ import java.time.LocalDateTime;
 import java.time.ZoneId;
 import java.time.ZonedDateTime;
 
+/**
+ * When using this with Eureka discovery client uncomment the line commented here and also
+ * do the same in pom and yml file
+ */
 @SpringBootApplication
 //@EnableDiscoveryClient
 public class GatewayApplication {
